@@ -2,9 +2,9 @@ name: Windows - liteManager
 
 on:
   workflow_dispatch:
-
-  jobs:
-    build:
+  
+jobs:
+  build:
       name: Start Building...
       runs-on: windows-latest
       timeout-minutes: 9999
